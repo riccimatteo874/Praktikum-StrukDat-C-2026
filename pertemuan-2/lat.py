@@ -29,9 +29,9 @@ nilai_siswa = {
 "uas": 70}
 }
 SO4 = {
-  "nama_siswa" = "fafa"
-  "nilai_tugas" = 85
-  "nilai_uts" = 80
-  "nilai_uas" = 90
+  "nama_siswa": "fafa",
+  "nilai_tugas": 85,
+  "nilai_uts": 80,
+  "nilai_uas": 90
 }
 nilai_siswa.update(SO4)
