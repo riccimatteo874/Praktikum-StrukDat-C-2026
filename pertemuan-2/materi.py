@@ -392,14 +392,14 @@ print(x)
 car["color"] = "white"
 print(x)
 
-x = thisdict.values()
+x = thisdict.urls()
 
 car = {
  "brand": "Ford",
  "model": "Mustang",
  "year": 1964
 }
-x = car.values()
+x = car.urls()
 print(x)
 car["year"] = 2020
 print(x)
@@ -409,7 +409,7 @@ car = {
  "model": "Mustang",
  "year": 1964
 }
-x = car.values()
+x = car.urls()
 print(x)
 car["color"] = "red"
 print(x)
@@ -471,7 +471,7 @@ print(thisdict)
 for x in thisdict:
     print(x)
 
-for x in thisdict.values():
+for x in thisdict.urls():
     print(x)
 
 for x in thisdict.keys():
