@@ -1,8 +1,8 @@
 riwayat = []
 
-riwayat.append('url 1')
-riwayat.append('url 2')
-riwayat.append('url 3')
+riwayat.append('googlr.com')
+riwayat.append('lala.com')
+riwayat.append('x.com')
 print("riwayat: ", riwayat)
 
 topurl = riwayat[-1]
