@@ -1,19 +1,19 @@
-stack = []
+riwayat = []
 
-stack.append('A')
-stack.append('B')
-stack.append('C')
-print("Stack: ", stack)
+riwayat.append('url 1')
+riwayat.append('url 2')
+riwayat.append('url 3')
+print("riwayat: ", riwayat)
 
-topElement = stack[-1]
-print("Peek: ", topElement)
+topurl = riwayat[-1]
+print("Peek: ", topurl)
 
-poppedElement = stack.pop()
-print("Pop: ", poppedElement)
+poppedurl = riwayat.pop()
+print("Pop: ", poppedurl)
 
-print("Stack after Pop: ", stack)
+print("riwayat after Pop: ", riwayat)
 
-isEmpty = not bool(stack)
+isEmpty = not bool(riwayat)
 print("isEmpty: ", isEmpty)
 
-print("Size: ",len(stack))
+print("Size: ",len(riwayat))

@@ -17,7 +17,7 @@ class Stack:
 
   def pop(self):
     if self.isEmpty():
-      return "Stack is empty"
+      return "Riwayat kosong"
     popped_node = self.head
     self.head = self.head.next
     self.size -= 1
@@ -25,7 +25,7 @@ class Stack:
 
   def peek(self):
     if self.isEmpty():
-      return "Stack is empty"
+      return "Riwayat kosong"
     return self.head.url
 
   def isEmpty(self):
